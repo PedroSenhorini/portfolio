@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    box-sizing: border-box;
+            background-color: black;
+                 color: #f6f6f6;
+        
+}
+
+.cabecalho_link{  
+    font-family: 'montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #22d4fd;
+    text-decoration: none;
+    
+}
+
+.cabecalho { 
+    padding: 2% 0% 0% 10%;
+}
+
+.cabecalho_menu {
+    display: flex;
+    gap: 80px   ;
+
+}
+
+.apresentacao { 
+    margin: 5% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+.apresentacao_conteudo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.apresentacao_titulo {
+    font-size: 2.25rem; 
+    font-family: 'Krona One', sans-serif;
+}
+
+.titulo-destaque {
+    color: #22d4fd;
+}
+
+.apresentacao_texto {
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao_links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center
+    padding 10px 0;
+    gap: 32px;
+
+}
+
+.aporesentacao_subtitulo {
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+
+}
+
+.apresentacao_links_link { 
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+    border: 2px solid #22d4fd;
+    width: 50%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    padding: 22px 0;
+    text-decoration: none;
+    color: #f6f6f6;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.apresentacao_imagem{
+    width: 30%;
+
+}
+
+.apresentacao_links_link:hover {
+    background-color: #272727;
+}
+
+@media (max-width: 1200px) {
+    .apresentacao {
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+    .apresentacao_conteudo {
+        width: 100%;
+    }
+    .apresentacao_imagem {
+        width: 100%;
+    }
+    .apresentacao_links {
+        flex-direction: row;
+        gap: 40px;
+    }
+    .apresentacao_links_link {
+        width: 100%;
+    }
+    .cabecalho{
+        padding: 10%;
+    }
+    .cabecalho_menu {
+        justify-content: center;
+    }
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+    .apresentacao_conteudo {
+        width: auto;
+    }
+} 
