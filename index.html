@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pedro Senhorini — Front-end Developer</title>
+  <title>Pedro Senhorini — Sobre Mim</title>
   <link rel="stylesheet" href="./styles/style.css" />
   <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
 </head>
@@ -11,50 +11,58 @@
 
   <header class="cabecalho">
     <nav class="cabecalho_menu">
-      <a class="cabecalho_link active" href="index.html">Home</a>
-      <a class="cabecalho_link" href="about.html">Sobre mim</a>
+      <a class="cabecalho_link" href="index.html">Home</a>
+      <a class="cabecalho_link active" href="about.html">Sobre mim</a>
       <a class="cabecalho_link" href="skills.html">Skills</a>
       <a class="cabecalho_link" href="projects.html">Projetos</a>
       <a class="cabecalho_link" href="contact.html">Contato</a>
     </nav>
   </header>
 
-  <main class="apresentacao">
-    <section class="apresentacao_conteudo">
+  <main class="sobre-mim">
 
-      <span class="apresentacao_eyebrow">Disponível para projetos</span>
+    <span class="page-label reveal">Sobre mim</span>
 
-      <h1 class="apresentacao_titulo">
-        Eleve seu negócio digital
-        <strong class="titulo-destaque">com Front-end de qualidade.</strong>
-      </h1>
+    <h1 class="reveal" style="--delay:0.1s">Quem sou<br><span style="color: var(--accent2); font-style: italic;">eu.</span></h1>
 
-      <p class="apresentacao_texto">
-        Olá! Sou Pedro Senhorini, estudante de Front-end. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?
-      </p>
-
-      <div class="apresentacao_links">
-        <p class="apresentacao_subtitulo">Acesse minhas redes</p>
-        <div class="social-links-row">
-          <a href="https://www.linkedin.com/in/pedro-senhorini-a196a6241/" target="_blank" class="social-btn">
-            <img src="./assets/linkedin.png" alt="LinkedIn" /> LinkedIn
-          </a>
-          <a href="https://github.com/PedroSenhorini" target="_blank" class="social-btn">
-            <img src="./assets/github.png" alt="GitHub" /> GitHub
-          </a>
-          <a href="mailto:pedrosenhorini0@gmail.com" class="social-btn">
-            <img src="./assets/gmail.png" alt="Email" /> Email
-          </a>
-        </div>
+    <div class="sobre-mim-grid">
+      <div class="sobre-mim-card">
+        <span class="card-flag">🇧🇷</span>
+        <p>
+          Tenho 19 anos e, desde a infância, sou apaixonado por jogos em consoles e computadores.
+          Esse interesse despertou minha curiosidade pela área de tecnologia. Ao acompanhar meu irmão,
+          que trabalha e estuda na área, desenvolvi um grande interesse pelo setor. Desde então, tenho
+          me dedicado a aprimorar minhas habilidades, focando em me especializar como Front-end.
+        </p>
       </div>
-
-    </section>
-
-    <div class="apresentacao_imagem_wrapper">
-      <img class="apresentacao_imagem" src="./assets/Adobe Express - file.jpg" alt="Pedro Senhorini" />
+      <div class="sobre-mim-card">
+        <span class="card-flag">🇺🇸</span>
+        <p>
+          I am 19 years old, and since my childhood, I have been passionate about gaming on consoles
+          and computers. This interest sparked my curiosity about technology. Observing my brother,
+          who works and studies in the field, inspired me to pursue a career in tech. Since then,
+          I have been dedicating myself to becoming a skilled Front-end professional.
+        </p>
+      </div>
     </div>
+
+    <div class="apresentacao_links" style="opacity:1;animation:none;">
+      <p class="apresentacao_subtitulo">Entre em contato</p>
+      <div class="social-links-row">
+        <a href="https://www.linkedin.com/in/pedrosenhorini/" target="_blank" class="social-btn">
+          <img src="./assets/linkedin.png" alt="LinkedIn" /> LinkedIn
+        </a>
+        <a href="https://github.com/PedroSenhorini" target="_blank" class="social-btn">
+          <img src="./assets/github.png" alt="GitHub" /> GitHub
+        </a>
+        <a href="mailto:pedrosenhorini0@gmail.com" class="social-btn">
+          <img src="./assets/gmail.png" alt="Email" /> Email
+        </a>
+      </div>
+    </div>
+
   </main>
 
-  <script src="./scripts/reveal.js"></script>
+<script src="./scripts/reveal.js"></script>
 </body>
 </html>
