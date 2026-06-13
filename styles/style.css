@@ -239,6 +239,10 @@ body::before {
 .apresentacao_imagem_wrapper {
   position: relative;
   z-index: 1;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 50%;
   flex-shrink: 0;
   width: 288px;
   height: 288px;
